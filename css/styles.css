@@ -2,22 +2,35 @@ body {
     background-color: #FFFFFF;
     color: #212121;
 }
-
-/* во все списки добавить */
-/* .list{
-    list-style: none; */
-/* } */ */
-
-/* не работает */
-.nav-list,link:hover
-.nav-list,link:focus {
+.logo {
+    color: black;
+}
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: #2196F3;
-
 }
 
-.nav-auth-list {
+.list {
+    list-style: none;
+}
+.nav-contact .link{
     color: #757575;
-
+}
+.nav-contact .link:hover,
+.nav-contact .link:focus {
+    color: #2196F3; 
+}
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.section-text {
+    color: #757575;
 }
 .button {
     color: #FFFFFF;
@@ -25,8 +38,9 @@ body {
 }
 
 /* еще черній #000000; */
-/*  основнойчерный #212121; */
-/* абзац и хедер #757575;*/
+/*  основнойчерный #212121;поменяла */
+/* абзац и хедер #757575;поменяла*/
 /* акцент синий #2196F3; */
 /* фон акцент белій #FFFFFF; */
+/* фон hero #2F303A */
 /* футер  rgba(255, 255, 255, 0.6) телефон ипочта */
