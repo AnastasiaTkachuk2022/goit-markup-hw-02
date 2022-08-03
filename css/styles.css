@@ -1,11 +1,12 @@
-body{
-    background-color: #fffff;
+body {
+    background-color: #FFFFFF;
     color: #212121;
 }
+
 /* во все списки добавить */
-.list{
-    list-style: none;
-}
+/* .list{
+    list-style: none; */
+/* } */ */
 
 /* не работает */
 .nav-list,link:hover
@@ -18,9 +19,14 @@ body{
     color: #757575;
 
 }
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
 /* еще черній #000000; */
 /*  основнойчерный #212121; */
 /* абзац и хедер #757575;*/
-/* акцент #2196F3; */
+/* акцент синий #2196F3; */
 /* фон акцент белій #FFFFFF; */
 /* футер  rgba(255, 255, 255, 0.6) телефон ипочта */
