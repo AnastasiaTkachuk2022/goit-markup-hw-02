@@ -1,9 +1,23 @@
 body {
     background-color: #FFFFFF;
     color: #212121;
+    font-family: Roboto, sans-serif;
 }
 .logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: black;
+}
+.start-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 .site-nav .link {
     color: #212121;
@@ -16,26 +30,126 @@ body {
 .list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
+.site-nav-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+/* .site-nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+} */
+
 .nav-contact .link{
     color: #757575;
+}
+.nav-contact-item {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .nav-contact .link:hover,
 .nav-contact .link:focus {
     color: #2196F3; 
 }
+
+
 .hero {
     background-color: #2F303A;
 }
 .hero-title {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
-}
-.section-text {
-    color: #757575;
 }
 .button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
+    cursor:pointer;
 }
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
+    background-color:#188CE8;
+}
+.title-feautures {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* последние значение отличаются */
+}
+
+
+.text-feautures {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.gallery-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+/* IMG */
+.team-title [
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+]
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+
+
+/* 
+Raleway bold 
+Roboto medium, black,bold, regular,
+Roboto regular-основной
+*/
 
 /* еще черній #000000; */
 /*  основнойчерный #212121;поменяла */
