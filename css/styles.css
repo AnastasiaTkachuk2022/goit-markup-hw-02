@@ -1,8 +1,23 @@
+:root {
+
+}
+
 body {
     background-color: #FFFFFF;
     color: #212121;
     font-family: Roboto, sans-serif;
 }
+/* =======START COMPONENTS======= */
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* =======END COMPONENTS=======*/
+
+/* =======START HEADER======= */
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -27,12 +42,7 @@ body {
     color: #2196F3;
 }
 
-.list {
-    list-style: none;
-}
-.link {
-    text-decoration: none;
-}
+
 .site-nav-list {
     font-weight: 500;
     font-size: 14px;
@@ -60,8 +70,8 @@ body {
 .nav-contact .link:focus {
     color: #2196F3; 
 }
-
-
+/* =======END HEADER======= */
+/* =======START HERO======= */
 .hero {
     background-color: #2F303A;
 }
@@ -93,6 +103,9 @@ body {
     color: #FFFFFF;
     background-color:#188CE8;
 }
+/* =======END HERO======= */
+
+/* =======START FEAUTURES======= */
 .title-feautures {
     font-family: 'Roboto';
     font-weight: 700;
@@ -102,8 +115,6 @@ body {
     text-transform: uppercase;
     /* последние значение отличаются */
 }
-
-
 .text-feautures {
     font-family: 'Roboto';
     font-weight: 400;
@@ -112,7 +123,9 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
-.gallery-title {
+/* =======END FEAUTURES======= */
+
+.about-title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
@@ -122,7 +135,11 @@ body {
     color: #212121;
 }
 /* IMG */
-.team-title [
+/* =======START TEAM======= */
+.team {
+    background-color: #F5F4FA;
+}
+.team-title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
@@ -130,7 +147,8 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-]
+}
+=======END TEAM=======
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -157,4 +175,5 @@ Roboto regular-основной
 /* акцент синий #2196F3; */
 /* фон акцент белій #FFFFFF; */
 /* фон hero #2F303A */
-/* футер  rgba(255, 255, 255, 0.6) телефон ипочта */
+/* футер  rgba(255, 255, 255, 0.6) телефон ипочта *
+ФОН НАША КОМАНДА #F5F4FA /
