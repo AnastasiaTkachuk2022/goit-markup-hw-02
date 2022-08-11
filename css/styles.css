@@ -6,7 +6,7 @@
     --accent-color-white: #FFFFFF;
     --extra-blue: #188CE8;
     --bg-dark: #2F303A;
-    --bg-light: #F5F4FA;
+    --bg-light: #F5F4FA; 
     --address-color: rgba(255, 255, 255, 0.6);
     --main-font-family: Roboto, sans-serif;
 }
@@ -65,7 +65,7 @@ body {
 }
 .nav-contact .link:hover,
 .nav-contact .link:focus {
-    color: var(--accent-color);
+    color: var(--accent-color-blue);
 }
 /* =======END HEADER======= */
 /* =======START HERO======= */
@@ -165,9 +165,41 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-color-blue);
+}
 .address-item .location {
     color: var(--accent-color-white);
 }
 /* =======END FOOTER======= */
 
 
+/* =======START PORTFOLIO PAGE======= */
+.gallery-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: inherit;
+    background-color: var(--bg-light);
+}
+.gallery-button:hover,
+.gallery-button:focus {
+    color: var(--accent-color-white);
+    background-color: var(--accent-color-blue);
+}
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+/* =======END PORTFOLIO PAGE======= */
