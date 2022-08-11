@@ -91,6 +91,7 @@ body {
 .button:focus {
     color: var(--accent-color-white);
     background-color: var(--extra-blue);
+    cursor: pointer;
 }
 /* =======END HERO======= */
 /* =======START FEAUTURES======= */
